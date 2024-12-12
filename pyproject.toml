@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "pdf-genius"
+version = "0.0.1"
+description = "PDF Genius is your smart assistant for document understanding. Upload any PDF, and get answers to your questions instantly using advanced Retrieval-Augmented Generation (RAG) technology."
+authors = ["Sumantha.NTS"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+openai = "^1.57.3"
+python-dotenv = "^1.0.1"
+streamlit = "^1.41.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
